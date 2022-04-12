@@ -16,7 +16,7 @@ source codes of the QSLT mechansim
 This doctory is forked from https://github.com/dj-on-github/sp800_22_tests. 
 
 You can evaluate the perfomance of QRNGs by using the following command: 
-   'python security_test_qrng.py' 
+   ```python security_test_qrng.py```
 and you can get results from a .txt file after the program finished.
 
 You can evaluate the perfomance of PRNGs by using the following command: 
@@ -25,6 +25,6 @@ and you can get results from a .txt file after the program finished.
 
 ## For a ML model test, 
 
-pip library requirements
+pip library requirements:
 pip install qiskit==0.34.2
 pip install qiskit-machine-learning==0.3.1
