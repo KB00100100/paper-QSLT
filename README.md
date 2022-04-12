@@ -23,10 +23,19 @@ You can evaluate the perfomance of PRNGs by using the following command:
    ```python security_test_prng.py``` 
 and you can get results from a .txt file after the program finished.
 
-## For a ML model test, 
+## For a ML model test, you can evaluate the perfomance by running the following commands:
+* cancer dataset: ```python SVM_cancer.py```
+* iris dataset: ```python SVM_iris.py```
+* wine dataset: ```python SVM_wine.py```
 
 pip library requirements:
 ```
-pip install qiskit==0.34.2
-pip install qiskit-machine-learning==0.3.1
+qiskit==0.34.0
+qiskit-aer==0.10.1
+qiskit-ibmq-provider==0.18.3
+qiskit-terra==0.19.1
+qiskit-machine-learning==0.2.1
+scikit-learn==1.0.2
+scipy==1.7.3
+numpy==1.21.5
 ```
