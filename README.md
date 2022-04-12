@@ -2,7 +2,7 @@
 source codes of the QSLT mechansim
 
 
-#For a randomness test, there are two steps:
+## For a randomness test, there are two steps:
 
 1) generate random sequences.
     for QRNG, you can use getQRN.py
@@ -23,7 +23,7 @@ You can evaluate the perfomance of PRNGs by using the following command:
    'python security_test_prng.py' 
 and you can get results from a .txt file after the program finished.
 
-#For a ML model test, 
+## For a ML model test, 
 
 pip library requirements
 pip install qiskit==0.34.2
